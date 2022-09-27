@@ -4,7 +4,7 @@ body {
     color: #212121;
 }
 
-li {
+ul {
     list-style: none;
 }
 
@@ -12,14 +12,11 @@ li {
 
 .site-nav a{
     text-decoration: none;
-    color: #212121;
+    color: #212121; 
 }
 
-.site-nav a:hover {
-    color: #2196F3;
-}
-
-.site-nav a:focus {
+.site-nav a:hover,
+.site-nav a:focus  {
     color: #2196F3;
 }
 
@@ -34,34 +31,68 @@ li {
     color: #2196F3;
 }
 
-.contacts a {
+.contacts-link a {
     text-decoration: none;
     color: #757575;
     
     }
 
-    
-
-.contacts a:hover {
+.contacts-link a:hover,
+.contacts-link a:focus {
     color: #2196F3;
-}
-
-.contacts a:focus {
-    color: #2196F3;;
-
-
 }
 
 /* main */
 
-.title {
+.page {
     background-color: #2F303A;
-    color: #FFFFFF;
+     }
+
+     .title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 116%;
+        color: #FFFFFF;
     }
 
-.title > button {
-color: #FFFFFF;
-background-color: #2196F3;
+.page > button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.list-caption {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    color: #212121;
+}
+
+.list-text {
+    font-size: 14px;
+    line-height: 146%;
+    color: #757575;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #212121;
+}
+
+.items-caption {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #212121;
+}
+
+.items-text {
+    font-size: 16px;
+    line-height: 100%;
+    color: #757575;
 }
 
 
@@ -70,14 +101,11 @@ background-color: #2196F3;
     background-color: #F5F4FA;
 }
 
-.btn  button:hover {
-    color: #fff;
-    background-color: #2196F3;
-}
-
+.btn  button:hover,
 .btn button:focus {
     color: #fff;
     background-color: #2196F3;
+    cursor: pointer;
 }
 
 
@@ -103,6 +131,7 @@ footer {
     color: #fff;
 }
 
-.color-contact:hover {
+.color-contact:hover,
+.color-contact:focus {
     color: #2196F3;
 }

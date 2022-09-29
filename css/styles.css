@@ -1,7 +1,18 @@
+/*цвет основного текста #212121*/
+/*вторичный цвет текста #757575/
+/*белый #FFFFFF*/
+/*акцент #2196F3*/
+
+:root {
+  --primary-text-color:#757575;
+  --title-text-color:#212121;
+  --accent-color:#2196F3;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    background: #FFFFFF;
+    color: var(--primary-text-color);
 }
 
 ul {
@@ -9,103 +20,127 @@ ul {
 }
 
 /*header*/
-
-.site-nav a{
-    text-decoration: none;
-    color: #212121; 
-}
-
-.site-nav a:hover,
-.site-nav a:focus  {
-    color: #2196F3;
-}
-
 .logo-header {
     font-family:'Raleway', sans-serif;
     color: black;
     text-decoration: none; 
     
 }
-.logo-hc {
+.logo-color {
     font-family:'Raleway', sans-serif;
-    color: #2196F3;
+    color: var(--accent-color);
 }
+
+/*site-nav*/
+
+.site-nav .link{
+    text-decoration: none;
+    color: var(--title-text-color); 
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus  {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+
+
+/*contacts*/
 
 .contacts-link a {
     text-decoration: none;
-    color: #757575;
+    color: var(--primary-text-color);
     
     }
 
 .contacts-link a:hover,
 .contacts-link a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* main */
 
-.page {
+/*hero*/
+
+.hero {
     background-color: #2F303A;
      }
 
-     .title {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 116%;
-        color: #FFFFFF;
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 116%;
+    color: #FFFFFF;
     }
 
-.page > button {
+.hero > button {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     cursor: pointer;
 }
+
+/*list*/
 
 .list-caption {
     font-weight: 700;
     font-size: 14px;
     line-height: 100%;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .list-text {
     font-size: 14px;
     line-height: 146%;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .heading {
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
-    color: #212121;
+    color: var(--title-text-color);
 }
+
+/*item*/
 
 .items-caption {
 
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .items-text {
     font-size: 16px;
     line-height: 100%;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
-
+/*button*/
 .btn > button {
-    color: #212121;
+    color: var(--title-text-color);
     background-color: #F5F4FA;
 }
 
-.btn  button:hover,
+.btn button:hover,
 .btn button:focus {
     color: #fff;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     cursor: pointer;
+}
+
+/*item*/
+.subject {
+    color: var(--title-text-color);
+}
+
+.desc {
+    color: var(--primary-text-color);
 }
 
 
@@ -119,13 +154,10 @@ footer {
     font-family:'Raleway', sans-serif;
     color: #fff;
     text-decoration: none; 
-    
+ 
 }
 
-.logo-fc {
-    font-family:'Raleway', sans-serif;
-    color: #2196F3;
-}
+
 
 .color-contact {
     color: #fff;
@@ -133,5 +165,5 @@ footer {
 
 .color-contact:hover,
 .color-contact:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }

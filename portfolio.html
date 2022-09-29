@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="uk">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
-    <link href="./css/styles.css" rel="stylesheet" >
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    >
+    />
   </head>
   <body>
     <!--header-->
     <header>
       <a class="logo-header" href="./index.html"
-        ><span class="logo-hc">Web</span>Studio</a
+        ><span class="logo-color">Web</span>Studio</a
       >
       <nav>
         <ul class="site-nav">
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="./index.html" class="link">Студія</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+          <li><a href="#" class="link">Контакти</a></li>
         </ul>
       </nav>
       <ul class="contacts-link">
@@ -41,53 +41,53 @@
           <li><button type="button">Дизайн</button></li>
           <li><button type="button">Маркетинг</button></li>
         </ul>
-        <ul>
+        <ul class="item">
           <li>
-            <img src="./images/portfolio1.jpg" width="370" alt="ноутбук" >
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <img src="./images/portfolio1.jpg" width="370" alt="ноутбук" />
+            <h3 class="subject">Технокряк</h3>
+            <p class="desc">Веб-сайт</p>
           </li>
 
           <li>
-            <img src="./images/portfolio2.jpg" width="370" alt="нба-гравці" >
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <img src="./images/portfolio2.jpg" width="370" alt="нба-гравці" />
+            <h3 class="subject">Постер New Orlean vs Golden Star</h3>
+            <p class="desc">Дизайн</p>
           </li>
 
           <li>
-            <img src="./images/portfolio3.jpg" width="370" alt="риба" >
-            <h3>Ресторан Seafood</h3>
-            <p>Додаток</p>
+            <img src="./images/portfolio3.jpg" width="370" alt="риба" />
+            <h3 class="subject">Ресторан Seafood</h3>
+            <p class="desc">Додаток</p>
           </li>
 
           <li>
-            <img src="./images/portfolio4.jpg" width="370" alt="навушники" >
-            <h3>Проєкт Prime</h3>
-            <p>Маркетинг</p>
+            <img src="./images/portfolio4.jpg" width="370" alt="навушники" />
+            <h3 class="subject">Проєкт Prime</h3>
+            <p class="desc">Маркетинг</p>
           </li>
 
           <li>
-            <img src="./images/portfolio5.jpg" width="370" alt="коробки" >
-            <h3>Проєкт Boxes</h3>
-            <p>Додаток</p>
+            <img src="./images/portfolio5.jpg" width="370" alt="коробки" />
+            <h3 class="subject">Проєкт Boxes</h3>
+            <p class="desc">Додаток</p>
           </li>
 
           <li>
-            <img src="./images/portfolio6.jpg" width="370" alt="монітор" >
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <img src="./images/portfolio6.jpg" width="370" alt="монітор" />
+            <h3 class="subject">Inspiration has no Borders</h3>
+            <p class="desc">Веб-сайт</p>
           </li>
 
           <li>
-            <img src="./images/portfolio7.jpg" width="370" alt="книга" >
-            <h3>Видання Limited Edition</h3>
-            <p>Дизайн</p>
+            <img src="./images/portfolio7.jpg" width="370" alt="книга" />
+            <h3 class="subject">Видання Limited Edition</h3>
+            <p class="desc">Дизайн</p>
           </li>
 
           <li>
-            <img src="./images/portfolio8.jpg" width="370" alt="лейба" >
-            <h3>Проєкт LAB</h3>
-            <p>Маркетинг</p>
+            <img src="./images/portfolio8.jpg" width="370" alt="лейба" />
+            <h3 class="subject">Проєкт LAB</h3>
+            <p class="desc">Маркетинг</p>
           </li>
 
           <li>
@@ -96,15 +96,17 @@
               width="370"
               alt="робота-за-ноутбуком"
             />
-            <h3>Growing Business</h3>
-            <p>Додаток</p>
+            <h3 class="subject">Growing Business</h3>
+            <p class="desc">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
     <!--footer-->
     <footer>
-      <a class="logo-footer" href="#"><span class="logo-fc">Web</span>Studio</a>
+      <a class="logo-footer" href="#"
+        ><span class="logo-color">Web</span>Studio</a
+      >
 
       <address>
         <ul class="contacts-link">
@@ -113,7 +115,9 @@
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer"
-              ><span class="color-contact">м. Київ, пр-т Лесі Українки, 26</span></a
+              ><span class="color-contact"
+                >м. Київ, пр-т Лесі Українки, 26</span
+              ></a
             >
           </li>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>

@@ -22,12 +22,20 @@ ul {
 /*header*/
 .logo-header {
     font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     color: black;
     text-decoration: none; 
     
 }
 .logo-color {
     font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
@@ -35,6 +43,10 @@ ul {
 
 .site-nav .link{
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--title-text-color); 
 }
 
@@ -53,6 +65,10 @@ ul {
 
 .contacts-link a {
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
     
     }
@@ -73,11 +89,18 @@ ul {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 116%;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
     color: #FFFFFF;
     }
 
 .hero > button {
+    font-family: i;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: var(--accent-color);
     cursor: pointer;
@@ -88,41 +111,50 @@ ul {
 .list-caption {
     font-weight: 700;
     font-size: 14px;
-    line-height: 100%;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 .list-text {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 146%;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
 .heading {
     font-weight: 700;
     font-size: 36px;
-    line-height: 100%;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 /*item*/
 
 .items-caption {
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 100%;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 .items-text {
-    font-size: 16px;
-    line-height: 100%;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
 /*button*/
 .btn > button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
     background-color: #F5F4FA;
 }
@@ -136,10 +168,17 @@ ul {
 
 /*item*/
 .subject {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
 
 .desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
@@ -152,13 +191,30 @@ footer {
 
 .logo-footer {
     font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     color: #fff;
     text-decoration: none; 
  
 }
 
+.contact-link a {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);
 
+}
 
+.contact-link a:hover,
+.contact-link a:focus {
+    color: var(--accent-color);
+}
 .color-contact {
     color: #fff;
 }

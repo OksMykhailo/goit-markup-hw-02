@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     background: var(--primary-white-color);
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
@@ -44,7 +45,6 @@ ul {
 .site-nav .link{
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color); 
@@ -66,7 +66,6 @@ ul {
 .contacts-link a {
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
@@ -110,7 +109,6 @@ ul {
 
 .list-caption {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     color: var(--title-text-color);
 }
@@ -132,13 +130,12 @@ ul {
 /*item*/
 
 .items-caption {
-    font-size: 14px;
     line-height: 1.14;
     color: var(--title-text-color);
 }
 
 .items-text {
-    font-size: 14px;
+    
     line-height: 1.71;
     color: var(--primary-text-color);
 }
@@ -150,6 +147,8 @@ ul {
     line-height: 1.6;
     color: var(--title-text-color);
     background-color: #F5F4FA;
+    border: none;
+    
 }
 
 .btn button:hover,
@@ -157,6 +156,9 @@ ul {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
+    border: none;
+    box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+    
 }
 
 /*item*/
@@ -201,7 +203,6 @@ footer {
     font-style: normal;
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: rgba(255, 255, 255, 0.6);

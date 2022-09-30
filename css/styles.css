@@ -7,12 +7,14 @@
   --primary-text-color:#757575;
   --title-text-color:#212121;
   --accent-color:#2196F3;
+  --primary-white-color:#FFFFFF;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #FFFFFF;
+    background: var(--primary-white-color);
     color: var(--primary-text-color);
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -25,8 +27,7 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: black;
+    color: #000;
     text-decoration: none; 
     
 }
@@ -35,7 +36,6 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
@@ -92,16 +92,16 @@ ul {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     }
 
 .hero > button {
-    font-family: i;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
 }
@@ -112,15 +112,12 @@ ul {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 .list-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
@@ -129,7 +126,6 @@ ul {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
@@ -138,14 +134,12 @@ ul {
 .items-caption {
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 .items-text {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
@@ -154,20 +148,25 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    letter-spacing: 0.03em;
     color: var(--title-text-color);
     background-color: #F5F4FA;
 }
 
 .btn button:hover,
 .btn button:focus {
-    color: #fff;
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
 }
 
 /*item*/
+
+.item a {
+    text-decoration: none;
+}
+
 .subject {
+    
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -175,10 +174,9 @@ ul {
 }
 
 .desc {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
@@ -194,8 +192,7 @@ footer {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #fff;
+    color: var(--primary-white-color);
     text-decoration: none; 
  
 }
@@ -216,7 +213,7 @@ footer {
     color: var(--accent-color);
 }
 .color-contact {
-    color: #fff;
+    color: var(--primary-white-color);
 }
 
 .color-contact:hover,

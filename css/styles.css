@@ -141,7 +141,8 @@ ul {
 }
 
 /*button*/
-.btn > button {
+.btn  .btn_portfolio {
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -151,8 +152,8 @@ ul {
     
 }
 
-.btn button:hover,
-.btn button:focus {
+.btn .btn_portfolio:hover,
+.btn .btn_portfolio:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
